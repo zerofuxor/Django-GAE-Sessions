@@ -15,12 +15,11 @@ Installing Django GAE Sessions
 >      ...
 >    )
 3. set the session engine to:
->  SESSION_ENGINE = 'common.sessions.engine'
-=======
-    MIDDLEWARE_CLASSES = (
-      ...
-      'django.contrib.sessions.middleware.SessionMiddleware',
-      ...
-    )
+>    SESSION_ENGINE = 'common.sessions.engine'
+>    MIDDLEWARE_CLASSES = (
+>      ...
+>      'django.contrib.sessions.middleware.SessionMiddleware',
+>      ...
+>    )
 3. set the session engine to:
   SESSION_ENGINE = 'common.sessions.engine'
