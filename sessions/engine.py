@@ -67,4 +67,4 @@ class SessionStore(SessionBase):
       if self._session_key is None:
         return
       session_key = self._session_key
-    Session.get_obj(session_key=session_key).delete()
+    Session.get_session(session_key).delete()
