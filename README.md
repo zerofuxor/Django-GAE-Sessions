@@ -6,8 +6,6 @@ Django GAE Sessions is a Django session engine to work with Google App Engine.
 Installing Django GAE Sessions
 ------------------------------
 
-Place the `sessions` directory in you GAE project.
-
 1. Copy the `sessions` directory to your App Engine project directory, or as a
    zip, so Python's zipimporter can find it.
 2. Uncomment the line in `settings.py`:
